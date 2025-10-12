@@ -1,0 +1,370 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Sweet Bites</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; t-src 'self'; style-src 'self' 'unsafe-inline'">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        #intro {
+            background-color: #33d1ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #intro::after {
+            content: "Scroll down to view";
+            position: absolute;
+            bottom: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .menu-item,
+        .gallery-item {
+            margin-bottom: 20px;
+        }
+
+        .menu-item h3,
+        .gallery-item h3 {
+            margin: 0;
+        }
+
+        .menu-item p,
+        .gallery-item p {
+            margin: 5px 0;
+        }
+
+        .gallery-item img {
+            max-width: 100%;
+        }
+    </style>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Sweet Bites" />
+    <meta property="og:description" content="Freshly baked upon order, Perfect for any occasion. Check out our delicious cakes and order yours today!" />
+    <meta property="og:image" content="https://seycakes.com/images/pic02.jpg" />
+    <meta property="og:url" content="https://seycakes.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sweet Bites" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sweet Bites" />
+    <meta name="twitter:description" content="Freshly baked upon order, Perfect for any occasion. Check out our delicious cakes and order yours today!" />
+    <meta name="twitter:image" content="https://seycakes.com/images/pic02.jpg" />
+    <meta name="twitter:site" content="@yourtwitterhandle" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- Alternate Favicon for .ico format -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+
+<body class="is-preload">
+
+    <!-- Sidebar -->
+    <section id="sidebar">
+        <div class="inner">
+            <nav>
+                <ul>
+                    <li><a href="#intro">Welcome</a></li>
+                    <li><a href="#one">Recent Orders</a></li>
+                    <li><a href="#two">Menu</a></li>
+                    <li><a href="#three">Get in touch</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Intro -->
+        <section id="intro" class="wrapper style1 fullscreen fade-up">
+            <div class="inner">
+                <h1>Sweet Bites</h1>
+                <p>Freshly baked upon order, Perfect for any occasion</p>
+                <ul class="actions">
+                    <li><a href="https://wa.me/2482502284" class="button" target="_blank" rel="noopener noreferrer">Order Now</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- One -->
+        <section id="one" class="wrapper style2 spotlights">
+            <section>
+                <a href="#" class="image"><img src="images/pic05.jpg" alt="Chocolate Cake" data-position="center center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Chocolate cake</h2>
+                        <p>8inch-Three layers of chocolate cake with chocolate cream.</p>
+                        <ul class="actions">
+                            <li><a href="https://wa.me/2482502284" class="button" target="_blank" rel="noopener noreferrer">Order One</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a href="#" class="image"><img src="images/pic02.jpg" alt="Chocolate Cake" data-position="top center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Chocolate Cake</h2>
+                        <p>8inch-Three layers of chocolate cake and chocolate frosting.</p>
+                        <ul class="actions">
+                            <li><a href="https://wa.me/2482502284" class="button" target="_blank" rel="noopener noreferrer">Order One</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a href="#" class="image"><img src="images/pic03.jpg" alt="Chocolate Cake" data-position="25% 25%" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Chocolate Cake</h2>
+                        <p>8inch-Three layers of chocolate cake with chantilly cream.</p>
+                        <ul class="actions">
+                            <li><a href="https://wa.me/2482502284" class="button" target="_blank" rel="noopener noreferrer">Order One</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a href="#" class="image"><img src="images/pic09.jpg" alt="Chocolate Cake" data-position="center center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Chocolate Cake</h2>
+                        <p>Chocolate Cake with frosting. (8inch)</p>
+                        <ul class="actions">
+                            <li><a href="https://wa.me/2482502284" class="button" target="_blank" rel="noopener noreferrer">Order One</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a href="#" class="image"><img src="images/pic07.jpg" alt="Chocolate Cake" data-position="center center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Chocolate Cake</h2>
+                        <p>With chantilly.</p>
+                        <ul class="actions">
+                            <li><a href="https://wa.me/2482502284" class="button" target="_blank" rel="noopener noreferrer">Order One</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a href="#" class="image"><img src="images/pic06.jpg" alt="Chocolate Cake" data-position="center center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Chocolate Cake</h2>
+                        <p>Chocolate cake with frosting.</p>
+                        <ul class="actions">
+                            <li><a href="https://wa.me/2482502284" class="button" target="_blank" rel="noopener noreferrer">Order One</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Two (Menu Section) -->
+        <!-- Two (Menu Section) -->
+<section id="two" class="wrapper style3 fade-up">
+    <div class="inner">
+        <h2>Sweet Bites</h2>
+        <h2>Menu</h2>  
+        <p>*All cakes are 8 inches and 3 layers*</p>
+        
+        <div class="menu-grid">
+            <div class="menu-column">
+                <div class="menu-item">
+                    <h3>Chocolate Cake with Chocolate Frosting</h3>
+                    <p>Rich and moist chocolate cake with decadent chocolate frosting.</p>
+                    <p>Price: 800 SCR</p>
+                    <p>Additional charge of 50 SCR for extra chocolate.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Vanilla Cake with Whipped Cream</h3>
+                    <p>Classic vanilla cake topped with light and fluffy whipped cream.</p>
+                    <p>Price: 550 SCR</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Red Velvet Cake with Cream Cheese Frosting</h3>
+                    <p>Moist red velvet cake paired with creamy and tangy cream cheese frosting.</p>
+                    <p>Price: 840 SCR</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Mixed Cake (2 Layers Chocolate, 1 Layer Vanilla)</h3>
+                    <p>A delightful mix of rich chocolate and classic vanilla flavors.</p>
+                    <p>Price: 700 SCR</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Mixed Cake (2 Layers Vanilla, 1 Layer Chocolate)</h3>
+                    <p>A delicious combination of two vanilla layers and one chocolate layer.</p>
+                    <p>Price: 650 SCR</p>
+                </div>
+            </div>
+            <div class="menu-column">
+                <div class="menu-item">
+                    <h3>Naked Chocolate Cake with Chocolate Frosting</h3>
+                    <p>Smaller version of our rich chocolate cake with chocolate frosting.</p>
+                    <p>Price: 500 SCR</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Naked Vanilla Cake with Whipped Cream</h3>
+                    <p>Smaller classic vanilla cake topped with fluffy whipped cream.</p>
+                    <p>Price: 350 SCR</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Naked Red Velvet Cake with Cream Cheese Frosting</h3>
+                    <p>Smaller moist red velvet cake with creamy cream cheese frosting.</p>
+                    <p>Price: 525 SCR</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Naked Half Chocolate and Half Vanilla Cake</h3>
+                    <p>A perfect combination of half chocolate and half vanilla cake.</p>
+                    <p>Price: 450 SCR</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Naked Half Chocolate and Half Red Velvet Cake</h3>
+                    <p>Delicious half chocolate and half red velvet cake combination.</p>
+                    <p>Price: 510 SCR</p>
+                </div>
+            </div>
+        </div>
+        
+        <p><strong>Mobile Number:</strong> 2502284</p>
+    </div>
+</section>
+
+<style>
+    .menu-grid {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-column {
+        width: 48%;
+    }
+    .menu-item {
+        margin-bottom: 20px;
+    }
+</style>
+
+
+
+        <!-- How to Order Section -->
+        <section id="how-to-order" class="wrapper style4 fade-up">
+            <div class="inner">
+                <h2>How to Order</h2>
+                <p>To place your order, please follow these instructions:</p>
+                <ol>
+                    <li>Browse our menu and decide which cakes you would like to order.</li>
+                    <li>Click the "Order Now" button below to start a WhatsApp conversation with us.</li>
+                    <li>Provide your Name, Contact Number.</li>
+                    <li>Full description of your cake including: Flavour, colours and wording.</li>                                                      
+                    <li>Date and preferred pick up time. 9AM To 5:30PM</li>
+                    
+                 We kindly request a minimum of four days notice for cake orders to ensure the highest quality and attention to detail.
+                </ol>
+                <ul class="actions">
+                    <li><a href="https://wa.me/2482502284" class="button" target="_blank" rel="noopener noreferrer">Order Now</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Three -->
+        <section id="three" class="wrapper style1 fade-up">
+    <div class="inner">
+        <h2>Get in touch</h2>
+        <p>Contact us now to place your order. Please note that we kindly request a minimum of four days' notice for cake orders to ensure the highest quality and attention to detail. We look forward to serving you with our delicious creations.</p>
+        <div class="split style1">
+            <section>
+                <h3>Opening Hours</h3>
+                <ul>
+                    <li>Monday: 7am to 6pm</li>
+                    <li>Tuesday: 7am to 6pm</li>
+                    <li>Wednesday: 7am to 6pm</li>
+                    <li>Thursday: 7am to 6pm</li>
+                    <li>Friday: 7am to 5pm</li>
+                    <li>Saturday: CLOSED. No collection of cakes.</li>
+                    <li>Sunday: 9am to 12pm Noon</li>
+                </ul>
+            </section>
+            <section>
+                <ul class="contact">
+                    <li>
+                        <h3>Our Location</h3>
+                        <span>Perseverance<br />Seychelles</span>
+                    </li>
+                    <li></li>
+                    <li>
+                        <h3>Mobile Number</h3>
+                        <a href="tel:+2482502284">+2482502284</a>
+                    </li>
+                    <li>
+                        <h3>Facebook Page</h3>
+                        <ul class="icons">
+                            <li><a href="https://www.facebook.com/sweetbitescakez" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Four (Gallery Section) -->
+        <section id="gallery" class="wrapper style5 fade-up">
+            <div class="inner">
+                <h2>Gallery</h2>
+                <p>Check out our full gallery, Click <a href="https://sweetbites.pixieset.com/cakes-1/" target="_blank">here</a>.</p>
+                <!-- Add more gallery items here as needed -->
+                <!-- Link to the full gallery -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer" class="wrapper style1-alt">
+            <div class="inner">
+                <ul class="menu">
+                    <li>&copy; 2024 Sweet Bites. All rights reserved.</li>
+                    <li>Mobile: <a href="tel:+2482502284">2502284</a></li>
+                    <li>Follow Us On Facebook: <a href="https://www.facebook.com/sweetbitescakez/" target="_blank">Sweet Bites</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- Static App Form Collection Script -->
+    <script src="https://static.app/js/static-forms.js" type="text/javascript"></script>
+</body>
+
+</html>
